@@ -2,7 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import Bg from "../assets/bg_img.png"
 import "../app/globals.css"
-import Header from "../components/header"
+import Header from "../components/header";
+import Hero from '../components/hero';
 
 
 const Index = () => {
@@ -10,8 +11,9 @@ const Index = () => {
         <div className='relative ' >
             {/* background_img */}
             
-            <div className='absolute'><Image src={Bg} alt="bg_image"/></div>
+            <div className='absolute'><Image src={Bg} alt="bg_image" className='h-[1050px] w-[1800px] -mt-[102px]'/></div>
            <div className='absolute'>  <Header/></div>
+           <div className='absolute'>  <Hero/></div>
                
             
 
