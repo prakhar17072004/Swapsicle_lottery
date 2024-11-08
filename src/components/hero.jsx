@@ -15,10 +15,11 @@ import Deadline from "../assets/Deadline.png";
 const Hero = () => {
     return (
         <div className=''>
+
             <div className='flex'>
                 {/* hero_section_1 */}
                 <div className='relative'>
-                <Image src={hero_sec_1} className='relative   mt-[200px] ml-[400px]'/>
+                <Image src={hero_sec_1} className='relative   mt-[200px] ml-[400px] '/>
                 <Image src={prize} className=' absolute -mt-[230px]  ml-[430px] '/>
                 <Image src={logo1} className='  absolute   -mt-[160px] ml-[430px]'/>
                 <Image src={vector} className=' absolute  -mt-[230px] ml-[640px]'/>
