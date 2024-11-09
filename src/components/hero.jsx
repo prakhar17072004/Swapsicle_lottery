@@ -26,17 +26,17 @@ import buy from "../assets/buy_button.png";
 // card3//
 
 import last_round from "../assets/Last round win.png";
-import vector2 from "../assets/Vector2.png";
+import vector2 from "../assets/Vector 2.png";
 import token3 from "../assets/357 ICE.png";
 import winner from "../assets/Winner.png";
 import address from "../assets/address.png";
 
 //card 4//
 import rewards from "../assets/Rewards.png";
-import token_count2 from "../assets/Token_counts.png";
+import token_count2 from "../assets/Token_count.png";
 import vector3 from "../assets/Vector3.png";
 import prize_pool from "../assets/Biggest Prize pool.png";
-import Eye_components from "../assets/Components2.png";
+import Eye_components from "../assets/Component 2.png";
 
 
 
@@ -92,11 +92,17 @@ const Hero = () => {
 
                   </div>
             </div>
-            <div className='flex mt-4 ml-[400px]'>
+            <div className='flex mt-4 ml-[400px] relative'>
 
                 {/* hero_section_3 */}
                <div>
-               <Image src={hero_sec_3} className=''/>
+               <Image src={hero_sec_3} className=' '/>
+               <Image src={last_round} className=' absolute ml-[30px] -mt-[230px]'/>
+               <Image src={vector3} className=' absolute ml-[330px] -mt-[230px]'/>
+               <Image src={logo1} className='absolute ml-[30px] -mt-[160px]'/>
+               <Image src={token3} className='absolute ml-[56px] -mt-[160px]'/>
+               <Image src={winner} className=' absolute ml-[30px]'/>
+               <Image src={address} className='absolute ml-[30px]'/>
                </div>
 
                 {/* hero_section_4 */}
