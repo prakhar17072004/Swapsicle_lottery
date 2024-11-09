@@ -31,6 +31,13 @@ import token3 from "../assets/357 ICE.png";
 import winner from "../assets/Winner.png";
 import address from "../assets/address.png";
 
+//card 4//
+import rewards from "../assets/Rewards.png";
+import token_count2 from "../assets/Token_counts.png";
+import vector3 from "../assets/Vector3.png";
+import prize_pool from "../assets/Biggest Prize pool.png";
+import Eye_components from "../assets/Components2.png";
+
 
 
 
