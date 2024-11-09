@@ -23,6 +23,15 @@ import total_sold from "../assets/Total sold.png";
 import ticket_count from "../assets/180 tickets.png";
 import rectangle3 from "../assets/Rectangle3.png";
 import buy from "../assets/buy_button.png";
+// card3//
+
+import last_round from "../assets/Last round win.png";
+import vector2 from "../assets/Vector2.png";
+import token3 from "../assets/357 ICE.png";
+import winner from "../assets/Winner.png";
+import address from "../assets/address.png";
+
+
 
 
 const Hero = () => {
