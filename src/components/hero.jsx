@@ -100,7 +100,7 @@ const Hero = () => {
                <Image src={last_round} className=' absolute ml-[30px] -mt-[230px]'/>
                <Image src={vector3} className=' absolute ml-[330px] -mt-[230px]'/>
                <Image src={logo1} className='absolute ml-[30px] -mt-[160px]'/>
-               <Image src={token3} className='absolute ml-[56px] -mt-[160px]'/>
+               <Image src={token3} className='absolute ml-[60px] -mt-[160px]'/>
                <Image src={winner} className=' absolute ml-[30px]'/>
                <Image src={address} className='absolute ml-[30px]'/>
                </div>
