@@ -10,16 +10,25 @@ import vector from "../assets/Vector.png";
 import time from "../assets/timeing_img.png";
 import token1 from "../assets/450 ICE.png";
 import Deadline from "../assets/Deadline.png";
+import round from "../assets/Round.png";
+import num from "../assets/12.png";
+import rectangle from "../assets/Rectangle1.png";
 
 
 const Hero = () => {
     return (
         <div className=''>
 
-            <div className='flex'>
+            <div className='flex mt-[170px]'>
+                <Image src={round} alt="" className=' ml-[400px]'/>
+                <Image src={rectangle} alt="" className='ml-2 relative'/>
+                <Image src={num} alt="" className='absolute ml-[514px] mt-2'/>
+            </div>
+
+            <div className='flex mt-[20px]'>
                 {/* hero_section_1 */}
-                <div className='relative'>
-                <Image src={hero_sec_1} className='relative   mt-[200px] ml-[400px] '/>
+                <div className='relative '>
+                <Image src={hero_sec_1} className='relative    ml-[400px] '/>
                 <Image src={prize} className=' absolute -mt-[230px]  ml-[430px] '/>
                 <Image src={logo1} className='  absolute   -mt-[160px] ml-[430px]'/>
                 <Image src={vector} className=' absolute  -mt-[230px] ml-[640px]'/>
@@ -31,7 +40,7 @@ const Hero = () => {
                 {/* hero_section_2 */}
 
                   <div>
-                  <Image src={hero_sec_2} className='mt-[200px] ml-2'/>
+                  <Image src={hero_sec_2} className=' ml-2'/>
                   </div>
             </div>
             <div className='flex mt-4 ml-[400px]'>
