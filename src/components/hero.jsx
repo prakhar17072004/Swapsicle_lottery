@@ -12,7 +12,10 @@ import token1 from "../assets/450 ICE.png";
 import Deadline from "../assets/Deadline.png";
 import round from "../assets/Round.png";
 import num from "../assets/12.png";
-import rectangle from "../assets/Rectangle1.png";
+import rectangle1 from "../assets/Rectangle1.png";
+import rectangle2 from "../assets/Rectangle2.png";
+import Tickets from "../assets/My tickets.png";
+import num2 from "../assets/1.png"
 
 
 const Hero = () => {
@@ -20,9 +23,17 @@ const Hero = () => {
         <div className=''>
 
             <div className='flex mt-[170px]'>
-                <Image src={round} alt="" className=' ml-[400px]'/>
-                <Image src={rectangle} alt="" className='ml-2 relative'/>
+               
+               <Image src={round} alt="" className=' ml-[400px]'/>
+                <Image src={rectangle1} alt="" className='ml-2 relative'/>
                 <Image src={num} alt="" className='absolute ml-[514px] mt-2'/>
+               
+                
+                <Image src={Tickets} alt="" className='ml-[556px] '/>
+                <Image src={rectangle2} alt="" className='ml-2 relative'/>
+                <Image src={num2} alt="" className='absolute ml-[1200px] mt-2'/>
+                
+                
             </div>
 
             <div className='flex mt-[20px]'>
