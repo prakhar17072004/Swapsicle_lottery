@@ -11,8 +11,8 @@ const Index = () => {
         <div className='relative ' >
             {/* background_img */}
             
-            <div className='absolute'><Image src={Bg} alt="bg_image" className='h-[1050px] w-[1800px] -mt-[102px]'/></div>
-           <div className='absolute'>  <Header/></div>
+            <div className='absolute'><Image src={Bg} alt="bg_image" className='lg:h-[1050px] lg:w-[1800px] md:h-[1050px]  md:w-[600px] sm:h-[1050px] sm:w-[300px] -mt-[102px]'/></div>
+           <div className='absolute '>  <Header/></div>
            <div className='absolute'>  <Hero/></div>
                
             
