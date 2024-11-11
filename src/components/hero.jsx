@@ -108,14 +108,14 @@ const Hero = () => {
 
                 {/* hero_section_4 */}
                <div>
-               {/* <Image src={hero_sec_4} className='ml-2'/>
+               <Image src={hero_sec_4} className='ml-2'/>
                <Image src={rewards} className=' absolute ml-10 -mt-[230px]'/>
                <Image src={vector3} className=' absolute ml-[380px] -mt-[230px]'/>
                <Image src={logo1} className=' absolute   ml-10 -mt-[160px]'/>
                <Image src={token4} className='absolute ml-20 -mt-[160px]'/>
                <Image src={Biggest_pool} className=' absolute ml-10 -mt-[70px]'/>
                <Image src={Pool_prize} className=' absolute ml-10 -mt-[48px]'/>
-               <Image src={Eye_components} className=' absolute ml-[280px] -mt-[48px]'/> */}
+               <Image src={Eye_components} className=' absolute ml-[280px] -mt-[48px]'/>
                </div>
             </div>
         </div>
