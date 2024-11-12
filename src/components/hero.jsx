@@ -96,7 +96,7 @@ const Hero = () => {
             <div className='flex  mt-4 ml-[400px] relative'>
 
                 {/* hero_section_3 */}
-               {/* <div>
+               <div>
                <Image src={hero_sec_3} className=' '/>
                <Image src={last_round} className=' absolute ml-[30px] -mt-[230px]'/>
                <Image src={vector2} className=' absolute ml-[330px] -mt-[230px]'/>
@@ -104,7 +104,7 @@ const Hero = () => {
                <Image src={token3} className='absolute ml-[64px] -mt-[160px]'/>
                <Image src={winner} className=' absolute ml-[30px] -mt-[70px]'/>
                <Image src={address} className='absolute ml-[30px] -mt-[48px]'/>
-               </div> */}
+               </div>
 
                 {/* hero_section_4 */}
                <div>
