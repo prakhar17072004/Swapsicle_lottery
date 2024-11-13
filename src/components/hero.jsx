@@ -44,9 +44,9 @@ import Eye_components from "../assets/Component 2.png";
 
 const Hero = () => {
     return (
-        <div className=''>
+        <div className=' '>
              {/* Top section of heor page */}
-            <div className='flex  lg:flex-row md:flex-col mt-[170px]'>
+            <div className=' flex   mt-[170px]'>
                {/* left side */}
                <Image src={round} alt="" className=' ml-[400px]'/>
                 <Image src={rectangle1} alt="" className='ml-2 relative'/>
