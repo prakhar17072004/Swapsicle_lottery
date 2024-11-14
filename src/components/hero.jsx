@@ -93,7 +93,7 @@ const Hero = () => {
 
                   </div>
             </div>
-            <div className='flex  mt-4 ml-[400px] relative'>
+            <div className='flex flex-row    mt-4 ml-[400px] relative max-w-[1280px] min-w-[420px] '>
 
                 {/* hero_section_3 */}
                <div>
