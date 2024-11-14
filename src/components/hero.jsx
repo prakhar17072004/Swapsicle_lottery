@@ -60,7 +60,7 @@ const Hero = () => {
                 
             </div>
 
-            <div className='flex  mt-[20px]'>
+            <div className='flex  mt-[20px] max-w-[1280px] min-w-[420px]  '>
                 {/* hero_section_1 */}
                 <div className='relative  '>
                 <Image src={hero_sec_1} className='relative    ml-[400px] '/>
