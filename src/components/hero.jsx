@@ -46,7 +46,7 @@ const Hero = () => {
     return (
         <div className=' '>
              {/* Top section of heor page */}
-            <div className=' flex   mt-[170px]'>
+            <div className=' flex  mt-[170px]'>
                {/* left side */}
                <Image src={round} alt="" className=' ml-[400px]'/>
                 <Image src={rectangle1} alt="" className='ml-2 relative'/>
@@ -62,7 +62,7 @@ const Hero = () => {
 
             <div className='flex  mt-[20px]'>
                 {/* hero_section_1 */}
-                <div className='relative '>
+                <div className='relative  '>
                 <Image src={hero_sec_1} className='relative    ml-[400px] '/>
                 <Image src={prize} className=' absolute -mt-[230px]  ml-[430px] '/>
                 <Image src={logo1} className='  absolute   -mt-[160px] ml-[430px]'/>

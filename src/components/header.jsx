@@ -18,7 +18,7 @@ const Header = () => {
           </div>
 
         {/* Right part */}
-        <div className='mt-[29px] ml-[250px]'>
+        <div className='mt-[29px] ml-[250px] '>
           <Image src={right_part} alt='right_part' />
         </div>
 
