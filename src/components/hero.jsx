@@ -60,9 +60,9 @@ const Hero = () => {
                 
             </div>
 
-            <div className='flex  mt-[20px] max-w-[1280px] min-w-[420px]  '>
+            <div className='flex  mt-[20px] '>
                 {/* hero_section_1 */}
-                <div className='relative  '>
+                {/* <div className='relative  '>
                 <Image src={hero_sec_1} className='relative    ml-[400px] '/>
                 <Image src={prize} className=' absolute -mt-[230px]  ml-[430px] '/>
                 <Image src={logo1} className='  absolute   -mt-[160px] ml-[430px]'/>
@@ -71,7 +71,7 @@ const Hero = () => {
                 <Image src={Deadline} className=' absolute -mt-[80px]  ml-[430px]'/>
                 <Image src={token1} className=' absolute  -mt-[160px] ml-[464px]'/>
 
-                </div>
+                </div> */}
                 {/* hero_section_2 */}
 
                   <div className='relative'>
@@ -93,7 +93,7 @@ const Hero = () => {
 
                   </div>
             </div>
-            <div className='flex flex-row    mt-4 ml-[400px] relative max-w-[1280px] min-w-[420px] '>
+            <div className='flex flex-row    mt-4  ml-[400px] relative  '>
 
                 {/* hero_section_3 */}
                <div>
