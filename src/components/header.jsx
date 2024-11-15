@@ -10,12 +10,12 @@ const Header = () => {
              {/* Header Section */}
              
           {/* Left part of header */}
-          {/* <div className=' flex  gap-2 '>
+          <div className=' flex  gap-2 '>
             
             <Image src={logo} alt="logo" className='mt-[29px] ml-[340px]  h-[48px]'/>
             <Image src={lotto} alt="lotto" className='h-[20px] mt-[48px] ' />
             
-          </div> */}
+          </div>
 
         {/* Right part */}
         <div className='mt-[29px] ml-[250px] '>
