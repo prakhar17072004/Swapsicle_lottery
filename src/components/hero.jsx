@@ -45,78 +45,78 @@ import Eye_components from "../assets/Component 2.png";
 const Hero = () => {
     return (
         <div className=' '>
-             {/* Top section of heor page */}
+            {/* Top section of heor page */}
             <div className=' flex  mt-[170px]'>
-               {/* left side */}
-               <Image src={round} alt="" className=' ml-[400px]'/>
-                <Image src={rectangle1} alt="" className='ml-2 relative'/>
-                <Image src={num} alt="" className='absolute ml-[514px] mt-2'/>
-               
+                {/* left side */}
+                <Image src={round} alt="" className=' ml-[400px]' />
+                <Image src={rectangle1} alt="" className='ml-2 relative' />
+                <Image src={num} alt="" className='absolute ml-[514px] mt-2' />
+
                 {/* right side */}
-                <Image src={Tickets} alt="" className='ml-[556px] '/>
-                <Image src={rectangle2} alt="" className='ml-2 relative'/>
-                <Image src={num2} alt="" className='absolute ml-[1200px] mt-2'/>
-                
-                
+                <Image src={Tickets} alt="" className='ml-[556px] ' />
+                <Image src={rectangle2} alt="" className='ml-2 relative' />
+                <Image src={num2} alt="" className='absolute ml-[1200px] mt-2' />
+
+
             </div>
 
             <div className='flex  mt-[20px] '>
                 {/* hero_section_1 */}
                 <div className='relative  '>
-                <Image src={hero_sec_1} className='relative    ml-[400px] '/>
-                <Image src={prize} className=' absolute -mt-[230px]  ml-[430px] '/>
-                <Image src={logo1} className='  absolute   -mt-[160px] ml-[430px]'/>
-                <Image src={vector} className=' absolute  -mt-[230px] ml-[640px]'/>
-                <Image src={time} className=' absolute  -mt-[56px] ml-[430px] '/>
-                <Image src={Deadline} className=' absolute -mt-[80px]  ml-[430px]'/>
-                <Image src={token1} className=' absolute  -mt-[160px] ml-[464px]'/>
+                    <Image src={hero_sec_1} className='relative    ml-[400px] ' />
+                    <Image src={prize} className=' absolute -mt-[230px]  ml-[430px] ' />
+                    <Image src={logo1} className='  absolute   -mt-[160px] ml-[430px]' />
+                    <Image src={vector} className=' absolute  -mt-[230px] ml-[640px]' />
+                    <Image src={time} className=' absolute  -mt-[56px] ml-[430px] ' />
+                    <Image src={Deadline} className=' absolute -mt-[80px]  ml-[430px]' />
+                    <Image src={token1} className=' absolute  -mt-[160px] ml-[464px]' />
 
                 </div>
                 {/* hero_section_2 */}
 
-                  <div className='relative'>
-                  <Image src={hero_sec_2} className=' ml-2'/>
-                  <Image src={Ticket_price} className='absolute -mt-[230px] ml-10 '/>
-                  <Image src={star} className=' absolute  -mt-[230px]  ml-[460px]'/>
-                  <Image src={logo1} className='absolute -mt-[160px]   ml-10'/>
-                  <Image src={token2} className=' absolute  -mt-[160px] ml-20'/>
+                <div className='relative'>
+                    <Image src={hero_sec_2} className=' ml-2' />
+                    <Image src={Ticket_price} className='absolute -mt-[230px] ml-10 ' />
+                    <Image src={star} className=' absolute  -mt-[230px]  ml-[460px]' />
+                    <Image src={logo1} className='absolute -mt-[160px]   ml-10' />
+                    <Image src={token2} className=' absolute  -mt-[160px] ml-20' />
 
-                  <Image src={total_sold} className='absolute ml-10  -mt-[80px]'/>
-                  <Image src={ticket_count} className='absolute -mt-[56px] ml-10'/>
-                  <Image src={rectangle3} className='absolute -mt-[88px]  ml-[310px]'/>
-                  <Image src={buy} className='absolute -mt-[84px]  ml-[392px]'/>
-                  <span className='absolute -mt-[72px] ml-[328px] font-bold text-white text-[16px] h-[24px]'>-</span>
-                  <span className='absolute -mt-[72px]  ml-[344px] font-bold text-white text-[16px] h-[24px]'>1</span>
-                  <span className='absolute -mt-[72px] ml-[360px] font-bold text-white text-[16px] h-[24px]'>+</span>
-                  
+                    <Image src={total_sold} className='absolute ml-10  -mt-[80px]' />
+                    <Image src={ticket_count} className='absolute -mt-[56px] ml-10' />
+                    <Image src={rectangle3} className='absolute -mt-[88px]  ml-[310px]' />
+                    <Image src={buy} className='absolute -mt-[84px]  ml-[392px]' />
+                    <span className='absolute -mt-[72px] ml-[328px] font-bold text-white text-[16px] h-[24px]'>-</span>
+                    <span className='absolute -mt-[72px]  ml-[344px] font-bold text-white text-[16px] h-[24px]'>1</span>
+                    <span className='absolute -mt-[72px] ml-[360px] font-bold text-white text-[16px] h-[24px]'>+</span>
 
 
-                  </div>
+
+                </div>
             </div>
             <div className='flex flex-row    mt-4  ml-[400px] relative  '>
 
                 {/* hero_section_3 */}
-               <div>
-               <Image src={hero_sec_3} className=' '/>
-               <Image src={last_round} className=' absolute ml-[30px] -mt-[230px]'/>
-               <Image src={vector2} className=' absolute ml-[330px] -mt-[230px]'/>
-               <Image src={logo1} className='absolute ml-[30px] -mt-[160px]'/>
-               <Image src={token3} className='absolute ml-[64px] -mt-[160px]'/>
-               <Image src={winner} className=' absolute ml-[30px] -mt-[70px]'/>
-               <Image src={address} className='absolute ml-[30px] -mt-[48px]'/>
-               </div>
+                <div>
+                    <Image src={hero_sec_3} className=' ' />
+                    <Image src={last_round} className=' absolute ml-[30px] -mt-[230px]' />
+                    <Image src={vector2} className=' absolute ml-[330px] -mt-[230px]' />
+                    <Image src={logo1} className='absolute ml-[30px] -mt-[160px]' />
+                    <Image src={token3} className='absolute ml-[64px] -mt-[160px]' />
+                    <Image src={winner} className=' absolute ml-[30px] -mt-[70px]' />
+                    <Image src={address} className='absolute ml-[30px] -mt-[48px]' />
+                </div>
 
                 {/* hero_section_4 */}
-               {/* <div>
-               <Image src={hero_sec_4} className='ml-2'/>
-               <Image src={rewards} className=' absolute ml-10 -mt-[230px]'/>
-               <Image src={vector3} className=' absolute ml-[380px] -mt-[230px]'/>
-               <Image src={logo1} className=' absolute   ml-10 -mt-[160px]'/>
-               <Image src={token4} className='absolute ml-20 -mt-[160px]'/>
-               <Image src={Biggest_pool} className=' absolute ml-10 -mt-[70px]'/>
-               <Image src={Pool_prize} className=' absolute ml-10 -mt-[48px]'/>
-               <Image src={Eye_components} className=' absolute ml-[280px] -mt-[48px]'/>
-               </div> */}
+                <div>
+                    <Image src={hero_sec_4} className='ml-2' />
+                    <Image src={rewards} className=' absolute ml-10 -mt-[230px]' />
+                    <Image src={vector3} className=' absolute ml-[380px] -mt-[230px]' />
+                    <Image src={logo1} className=' absolute   ml-10 -mt-[160px]' />
+                    <Image src={token4} className='absolute ml-20 -mt-[160px]' />
+                    <Image src={Biggest_pool} className=' absolute ml-10 -mt-[70px]' />
+                    <Image src={Pool_prize} className=' absolute ml-10 -mt-[48px]' />
+                    <Image src={Eye_components} className=' absolute ml-[280px] -mt-[48px]' />
+                </div>
             </div>
         </div>
     );
